@@ -120,7 +120,7 @@ echo -e "Create Metric: ${BOLD_GREEN}https://console.cloud.google.com/logs/metri
 
 ```
 ---
-## Task 5. Create a log-based metric
+## Task 5. Create a log-based metric :
 
 ```bash
 resource.type="gce_instance"
@@ -134,7 +134,7 @@ textPayload:"200"
 textPayload
 ```
 
-## Enter the following in the Regular Expression field:
+## Enter the Regular Expression :
 
 ```bash
 execution took (\d+)
